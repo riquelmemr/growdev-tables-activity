@@ -29,9 +29,9 @@ nav a:hover {
 }
 
 table {
-  width: 50%;
+  width: 30%;
   border-collapse: collapse;
-  margin: 10px;
+  margin: 0 0 30px 10px;
 }
 
 tr, td {
