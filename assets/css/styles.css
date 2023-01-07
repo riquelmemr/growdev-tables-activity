@@ -59,13 +59,14 @@ td:hover {
   text-align: end;
 }
 
-.main {
+table.main {
   width: 80%;
+  border: 3px dashed black
 }
 
 .main tr,
 .main td {
-  border: 2px solid black;
+  border: 3px dashed black;
 }
 
 .center {
@@ -86,6 +87,16 @@ td:hover {
   height: 50px;
 }
 
-.empty tr {
-  height: 25px;
+.empty {
+  border: 2px solid darkmagenta;
 }
+
+.empty tr, .empty td {
+  height: 25px;
+  border: 2px solid darkmagenta;
+}
+
+.empty tr:nth-child(even) {
+  background-color: rgb(83, 152, 153);
+}
+
